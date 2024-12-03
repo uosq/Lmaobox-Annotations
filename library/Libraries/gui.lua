@@ -17,4 +17,9 @@ function gui.GetValue(name) end
 ---@return boolean
 function gui.SetValue(name, value) end
 
+---Returns whether the cheat's menu is open or not
+---@nodiscard
+---@return boolean
+function gui.IsMenuOpen() end
+
 return gui

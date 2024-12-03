@@ -20,6 +20,11 @@ function engine.IsGameUIVisible() end
 ---@nodiscard
 function engine.IsTakingScreenshot() end
 
+---Returns whether the chat is open or not.
+---@nodiscard
+---@return boolean
+function engine.IsChatOpen() end
+
 ---Traces line from src to dst, returns Trace class. \
 ---The shouldHitEntity function is optional, and can be used to filter out entities that should not be hit. \
 ---It should return true if the entity should be hit, and false otherwise.
