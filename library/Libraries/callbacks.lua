@@ -34,7 +34,7 @@ callbacks = {}
 
 ---Register new callback.
 ---@param id CallbackID
----@param callback fun()
+---@param callback fun(...)
 ---@return boolean success
 function callbacks.Register(id, callback) end
 
@@ -42,7 +42,7 @@ function callbacks.Register(id, callback) end
 ---Throws an error if another callback unique is already existed, or unknown callback id.
 ---@param id CallbackID
 ---@param unique string
----@param callback fun()
+---@param callback fun(...)
 ---@return boolean success
 function callbacks.Register(id, unique, callback) end
 

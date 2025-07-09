@@ -8,7 +8,7 @@
 ---@class UserCmd
 ---@field command_number integer # The number of the command.
 ---@field tick_count integer # The current tick count.
----@field viewangles EulerAngles # The view angles of the player.
+---@field viewangles Vector3 # The view angles of the player.
 ---@field forwardmove number # The forward movement of the player.
 ---@field sidemove number # The sideways movement of the player.
 ---@field upmove number # The upward movement of the player.

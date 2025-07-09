@@ -21,8 +21,8 @@ function TempEntity:Release() end
 
 ---Triggers the temporary entity.
 ---For effects in spawns an effect, like an explosion, for others it will do whatever the TempEntity is programmed to perform.
----@param dataUpdateType integer
-function TempEntity:GetNetworkName(dataUpdateType) end
+---@param dataUpdateType E_DataUpdateType
+function TempEntity:PostDataUpdate(dataUpdateType) end
 
 --[[ Netvars/props ]]
 

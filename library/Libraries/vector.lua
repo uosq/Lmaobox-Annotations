@@ -90,3 +90,9 @@ function vector.AngleUp(vec) end
 ---@return EulerAngles
 ---@nodiscard
 function vector.AngleNormalize(vec) end
+
+---Returns the forward, right and up vectors
+---@param angles EulerAngles
+---@return Vector3, Vector3, Vector3
+---@nodiscard
+function vector.AngleVectors(angles) end
