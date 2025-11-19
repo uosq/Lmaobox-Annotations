@@ -89,3 +89,7 @@ function BitBuffer:WriteInt(int, bitLength) end
 ---@param float number
 ---@param bitLength integer? # optional (default = `32`)
 function BitBuffer:WriteFloat(float, bitLength) end
+
+--- Deletes the BitBuffer
+--- This is required to be called after you're done with it.
+function BitBuffer:Delete() end

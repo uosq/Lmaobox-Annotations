@@ -344,6 +344,7 @@ function Entity:IsInFreezecam() end
 function Entity:GetVAngles() end
 
 ---Sets the third person view angles of the player, only really effective on the localplayer
+---This should only be called from FrameStageNotify on stage FRAME_RENDER_START
 ---@param angles Vector3
 function Entity:SetVAngles(angles) end
 
@@ -419,14 +420,14 @@ function Entity:GetWeaponSpread() end
 ---In that case its up to you to figure out the speed.
 ---@return number? speed
 ---@nodiscard
-function Entity:GetWeaponProjectileSpeed() end
+function Entity:GetProjectileSpeed() end
 
 ---Returns the projectile gravity of the weapon, returns `nil` if the weapon is not a projectile weapon. \
 ---Can return 0 if the weapon has the gravity hardcoded somewhere else. \
 ---In that case its up to you to figure out the gravity.
 ---@return number? gravity
 ---@nodiscard
-function Entity:GetWeaponProjectileGravity() end
+function Entity:GetProjectileGravity() end
 
 ---Returns the projectile spread of the weapon, returns `nil` if the weapon is not a projectile weapon.
 ---@return number? spread

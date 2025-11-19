@@ -1,10 +1,6 @@
 ---@diagnostic disable:duplicate-set-field
 ---@meta
 
----Prints message to console. Each argument is printed on a new line.
----@param ... any
-function _G.print(msg, ...) end
-
 ---Prints a colored message to console. Each argument is printed on a new line.
 ---@param r integer
 ---@param g integer
@@ -27,11 +23,6 @@ function _G.UnloadScript(scriptPath) end
 ---@return string scriptPath
 ---@nodiscard
 function _G.GetScriptName() end
-
----Prints Lua Table to console.
----@param a table?
----@param indent integer?
-function _G.printLuaTable(a, indent) end
 
 --[[ Global Constants ]]
 
