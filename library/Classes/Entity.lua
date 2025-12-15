@@ -140,7 +140,7 @@ function Entity:GetHitboxes(currentTime) end
 function Entity:SetModel(modelPath) end
 
 ---Gets the model of the entity, returned as model string.
----@return string
+---@return Model
 ---@nodiscard
 function Entity:GetModel() end
 
