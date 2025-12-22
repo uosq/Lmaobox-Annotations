@@ -65,6 +65,7 @@ function render.Viewport(x, y, w, h) end
 function render.DepthRange(zNear, zFar) end
 
 ---Returns the depth range of rendering as zNear, zFar
+---@return number zNear, number zFar
 ---@nodiscard
 function render.GetDepthRange() end
 

@@ -20,7 +20,7 @@ function models.GetModel(modelIndex) end
 function models.GetModelIndex(modelName) end
 
 ---Returns a [StudioModelHeader](lua://StudioModelHeader) object by model.
----@param model string
+---@param model Model
 ---@return StudioModelHeader
 ---@nodiscard
 function models.GetStudioModel(model) end

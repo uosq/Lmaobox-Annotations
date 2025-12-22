@@ -174,11 +174,13 @@ function Entity:ToInventoryItem() end
 ---Returns the number value of the attribute present on the entity.
 ---@param name string
 ---@param defaultValue? number # optional (default = `1.0`)
+---@return number
 function Entity:AttributeHookFloat(name, defaultValue) end
 
 ---Returns the integer value of the attribute present on the entity.
 ---@param name string
 ---@param defaultValue? integer # optional (default = `1`)
+---@return number
 function Entity:AttributeHookInt(name, defaultValue) end
 
 --[[ Entity netvars/props ]]
